@@ -81,6 +81,7 @@ $ nest new project-name
 # prisma
 $ pnpm i prisma --save-dev
 $ pnpm prisma init
+$ pnpm prisma migrate dev --name init
 
 # 타입스크립트 경로 읽기 위한 패키지
 $ pnpm i --save-dev tsconfig-paths
