@@ -19,6 +19,11 @@ export class ProductsService {
       where: {
         id,
       },
+      include: {
+        description: true,
+        tags: true,
+        reviews: true,
+      },
     });
   }
 
